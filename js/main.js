@@ -4,7 +4,11 @@
     var vm = new Vue({
         el: '#app',
         data: {
-            name: 'furikake'
+            todos: [
+                'task1',
+                'task2',
+                'task3'
+            ]
         }
     })
 })();

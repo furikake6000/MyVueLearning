@@ -8,8 +8,13 @@
     <body>
 
         <div id="app">
-            <p>Hello {{ name.toUpperCase() }}!</p>
-            <p><input type="text" v-model="name"></p>
+            <ul>
+                <li v-for="todo in todos">{{ todo }}</li>
+            </ul>
+            <form>
+                <input type="text">
+                <input type="submit" value="add todo">
+            </form>
         </div>
 
         <!-- Vue.js(Dev mode) -->
