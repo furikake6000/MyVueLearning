@@ -37,3 +37,8 @@ body{
     cursor: pointer;
     color: navy;
 }
+
+.info{
+    font-size: 1.0rem;
+    color: #bbb;
+}
