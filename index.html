@@ -12,7 +12,7 @@
 
             <ul>
                 <li v-for="(todo, index) in todos">
-                    {{ todo }}<span class="command" @click="deleteItem(index)">[x]</span>
+                    {{ todo.title }}<span class="command" @click="deleteItem(index)">[x]</span>
                 </li>
             </ul>
             <form @submit.prevent="addItem">
