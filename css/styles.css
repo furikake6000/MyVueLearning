@@ -8,17 +8,27 @@ body{
     margin: auto;
 }
 
-.container h1{
+#app h1{
     font-size: 1.2rem;
     color: #666;
     border-bottom: 2px dotted #666;
 }
 
-.container li{
+#app li{
     line-height: 1.5;
 }
 
-.container input[type="text"]{
+#app li> span.done{
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+#app ul{
+    padding: 0;
+    list-style: none;
+}
+
+#app input[type="text"]{
     padding: 2px;
 }
 
