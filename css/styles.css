@@ -21,3 +21,9 @@ body{
 .container input[type="text"]{
     padding: 2px;
 }
+
+.command{
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: navy;
+}

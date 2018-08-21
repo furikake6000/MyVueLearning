@@ -11,7 +11,9 @@
             <h1>My Todos</h1>
 
             <ul>
-                <li v-for="todo in todos">{{ todo }}</li>
+                <li v-for="(todo, index) in todos">
+                    {{ todo }}<span class="command" @click="deleteItem(index)">[x]</span>
+                </li>
             </ul>
             <form @submit.prevent="addItem">
                 <input type="text" v-model="newItem">
