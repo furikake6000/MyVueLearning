@@ -8,9 +8,10 @@
     <body>
 
         <div id="app" class="container">
-            <like-component></like-component>
-            <like-component text="Awesome"></like-component>
-            <like-component text="Great"></like-component>
+            <p>Total Likes: {{ total }}</p>
+            <like-component @increment="incrementTotal"></like-component>
+            <like-component text="Awesome" @increment="incrementTotal"></like-component>
+            <like-component text="Great" @increment="incrementTotal"></like-component>
         </div>
 
         <!-- Vue.js(Dev mode) -->
