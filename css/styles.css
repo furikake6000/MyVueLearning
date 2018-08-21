@@ -1,0 +1,23 @@
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 300px;
+    margin: auto;
+}
+
+.container h1{
+    font-size: 1.2rem;
+    color: #666;
+    border-bottom: 2px dotted #666;
+}
+
+.container li{
+    line-height: 1.5;
+}
+
+.container input[type="text"]{
+    padding: 2px;
+}
